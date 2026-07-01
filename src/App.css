@@ -1,0 +1,279 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #111827;
+  color: white;
+}
+
+/* ---------- NAVBAR ---------- */
+
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: #0f172a;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.logo-box {
+  width: 58px;
+  height: 58px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #38bdf8, #2563eb);
+  color: white;
+  font-size: 26px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 18px rgba(56, 189, 248, 0.7);
+  border: 2px solid #7dd3fc;
+}
+
+.brand span {
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: #38bdf8;
+}
+
+/* ---------- PAGES ---------- */
+
+.page {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding: 70px 20px;
+}
+
+h1 {
+  font-size: 60px;
+  margin-bottom: 15px;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 12px 30px;
+  background: #38bdf8;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #0284c7;
+}
+
+/* ---------- HOME ---------- */
+
+.profile-img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 6px solid #38bdf8;
+  box-shadow: 0 0 25px rgba(56, 189, 248, 0.4);
+  margin-bottom: 30px;
+  transition: 0.3s;
+}
+
+.profile-img:hover {
+  transform: scale(1.05);
+}
+
+.hero-section {
+  padding-top: 40px;
+}
+
+  .hero-section h1 {
+  font-size: 56px;
+  margin-bottom: 10px;
+}
+
+.hero-section p {
+  max-width: 800px;
+  margin: 15px auto;
+}
+
+/* ---------- CARDS ---------- */
+
+.card {
+  max-width: 750px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #1b263b;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.card p {
+  font-size: 20px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+/* ---------- PROJECTS ---------- */
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-top: 40px;
+}
+
+.projects-grid .card {
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.projects-grid .card h2 {
+  color: #38bdf8;
+}
+
+.card .btn {
+  align-self: center;
+}
+
+/* ---------- RESPONSIVE ---------- */
+
+@media (max-width: 900px) {
+  nav {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  h1 {
+    font-size: 42px;
+  }
+}
+footer {
+  text-align: center;
+  padding: 25px;
+  background: #0f172a;
+  color: #cbd5e1;
+  border-top: 1px solid #1e293b;
+  margin-top: 40px;
+}
+
+footer p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+.resume-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+
+.resume-buttons .btn {
+  min-width: 170px;
+  padding:10px 22px;
+  text-align: center;
+}
+.resume-buttons .btn:hover{
+    transform:translateY(-3px);
+    transition:.3s;
+}
+.skills-section {
+  margin-top: 35px;
+}
+
+.skills-grid {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  flex-wrap: wrap;
+  margin-top: 25px;
+}
+.skills-grid span {
+  background: #1b263b;
+  color: #38bdf8;
+  padding: 8px 18px;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 1px solid #38bdf8;
+  transition: 0.3s;
+  font-size: 15px;
+}
+
+.skills-grid span:hover {
+  background: #38bdf8;
+  color: white;
+  transform: translateY(-5px);
+}
+.project-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.project-buttons .btn {
+  margin-top: 0;
+  min-width: 120px;
+}
