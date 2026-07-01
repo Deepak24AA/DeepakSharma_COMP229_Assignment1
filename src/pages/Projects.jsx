@@ -16,12 +16,17 @@ function Projects() {
           </p>
 
           <div className="project-buttons">
-            <a href="/" className="btn">
+            <a
+              href="https://deepak24aa.github.io/DeepakSharma_COMP229_Assignment1/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn"
+            >
               Live Demo
             </a>
 
             <a
-                href="https://github.com/Deepak24AA/DeepakSharma_COMP229_Assignment1"
+              href="https://github.com/Deepak24AA/DeepakSharma_COMP229_Assignment1"
               target="_blank"
               rel="noopener noreferrer"
               className="btn"
@@ -42,12 +47,17 @@ function Projects() {
           </p>
 
           <div className="project-buttons">
-            <a href="/" className="btn">
+            <a
+              href="https://deepak24aa.github.io/DeepakSharma_COMP229_Assignment1/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn"
+            >
               Live Demo
             </a>
 
             <a
-                href="https://github.com/Deepak24AA/DeepakSharma_COMP229_Assignment1"
+              href="https://github.com/Deepak24AA/DeepakSharma_COMP229_Assignment1"
               target="_blank"
               rel="noopener noreferrer"
               className="btn"
@@ -68,12 +78,17 @@ function Projects() {
           </p>
 
           <div className="project-buttons">
-            <a href="/" className="btn">
+            <a
+              href="https://deepak24aa.github.io/DeepakSharma_COMP229_Assignment1/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn"
+            >
               Live Demo
             </a>
 
             <a
-                href="https://github.com/Deepak24AA/DeepakSharma_COMP229_Assignment1"
+              href="https://github.com/Deepak24AA/DeepakSharma_COMP229_Assignment1"
               target="_blank"
               rel="noopener noreferrer"
               className="btn"
