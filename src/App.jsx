@@ -11,7 +11,7 @@ import Contact from "./pages/Contact";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/DeepakSharma_COMP229_Assignment1">
       <Navbar />
 
       <Routes>
