@@ -29,35 +29,37 @@ function Home() {
 
       <div className="resume-buttons">
         <a
-  href="/DeepakSharma_COMP229_Assignment1/resume.pdf"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="btn"
->
-  View Resume
-</a>
-       <a
-  href="/DeepakSharma_COMP229_Assignment1/resume.pdf"
-  download
-  className="btn"
->
-  Download Resume
-</a>
-      </div>
-      <div className="skills-section">
-  <h2>Technical Skills</h2>
+          href="/DeepakSharma_COMP229_Assignment1/resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn"
+        >
+          View Resume
+        </a>
 
-  <div className="skills-grid">
-    <span>Java</span>
-    <span>C#</span>
-    <span>React</span>
-    <span>JavaScript</span>
-    <span>HTML & CSS</span>
-    <span>Oracle SQL</span>
-    <span>Software Testing</span>
-    <span>Healthcare IT</span>
-  </div>
-</div>
+        <a
+          href="/DeepakSharma_COMP229_Assignment1/resume.pdf"
+          download
+          className="btn"
+        >
+          Download Resume
+        </a>
+      </div>
+
+      <div className="skills-section">
+        <h2>Technical Skills</h2>
+
+        <div className="skills-grid">
+          <span>Java</span>
+          <span>C#</span>
+          <span>React</span>
+          <span>JavaScript</span>
+          <span>HTML &amp; CSS</span>
+          <span>Oracle SQL</span>
+          <span>Software Testing</span>
+          <span>Healthcare IT</span>
+        </div>
+      </div>
     </div>
   );
 }
