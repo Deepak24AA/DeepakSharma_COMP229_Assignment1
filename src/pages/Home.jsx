@@ -29,21 +29,20 @@ function Home() {
 
       <div className="resume-buttons">
         <a
-          href="/resume.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="btn"
-        >
-          View Resume
-        </a>
-
-        <a
-          href="/resume.pdf"
-          download
-          className="btn"
-        >
-          Download Resume
-        </a>
+  href="/DeepakSharma_COMP229_Assignment1/resume.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="btn"
+>
+  View Resume
+</a>
+       <a
+  href="/DeepakSharma_COMP229_Assignment1/resume.pdf"
+  download
+  className="btn"
+>
+  Download Resume
+</a>
       </div>
       <div className="skills-section">
   <h2>Technical Skills</h2>
