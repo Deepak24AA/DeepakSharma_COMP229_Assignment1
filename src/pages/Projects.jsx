@@ -1,3 +1,7 @@
+import portfolio from "../assets/portfolio.png";
+import javaProject from "../assets/java-project.png";
+import csharpProject from "../assets/csharp-project.png";
+
 function Projects() {
   return (
     <div className="page">
@@ -7,6 +11,13 @@ function Projects() {
 
         {/* Project 1 */}
         <div className="card">
+
+          <img
+            src={portfolio}
+            alt="React Portfolio Website"
+            className="project-image"
+          />
+
           <h2>React Portfolio Website</h2>
 
           <p>
@@ -38,6 +49,13 @@ function Projects() {
 
         {/* Project 2 */}
         <div className="card">
+
+          <img
+            src={javaProject}
+            alt="Java Health Information System"
+            className="project-image"
+          />
+
           <h2>Java Health Information System</h2>
 
           <p>
@@ -69,6 +87,13 @@ function Projects() {
 
         {/* Project 3 */}
         <div className="card">
+
+          <img
+            src={csharpProject}
+            alt="C# Notification Manager"
+            className="project-image"
+          />
+
           <h2>C# Notification Manager</h2>
 
           <p>

@@ -1,47 +1,36 @@
+import { useNavigate } from "react-router-dom";
+
 function Contact() {
+  const navigate = useNavigate();
+
+  function handleSubmit(event) {
+    event.preventDefault();
+    alert("Thank you for your message!");
+    navigate("/");
+  }
+
   return (
     <div className="page">
       <h1>Contact Me</h1>
 
       <div className="card">
-
         <h2>Let's Connect</h2>
 
-        <p>
-          I am always interested in discussing new opportunities,
-          internships, and technology projects.
-        </p>
+        <p>Email: dsharmarpht@gmail.com</p>
+        <p>Phone: +1 (416) 723-2829</p>
+        <p>Location: Brampton, Ontario, Canada</p>
 
-        <br />
+        <form className="contact-form" onSubmit={handleSubmit}>
+          <input type="text" placeholder="First Name" required />
+          <input type="text" placeholder="Last Name" required />
+          <input type="tel" placeholder="Contact Number" required />
+          <input type="email" placeholder="Email Address" required />
+          <textarea placeholder="Message" rows="5" required></textarea>
 
-        <p>
-          <strong>Email:</strong><br />
-          dsharmarpht@gmail.com
-        </p>
-
-        <br />
-
-        <p>
-          <strong>Phone:</strong><br />
-          +1 (416) 723-2829
-        </p>
-
-        <br />
-
-        <p>
-          <strong>Location:</strong><br />
-          Brampton, Ontario, Canada
-        </p>
-
-        <br />
-
-        <a
-          className="btn"
-          href="mailto:dsharmarpht@gmail.com"
-        >
-          Send Email
-        </a>
-
+          <button type="submit" className="btn">
+            Send Message
+          </button>
+        </form>
       </div>
     </div>
   );
