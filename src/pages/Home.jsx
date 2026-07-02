@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import profilePic from "../assets/Deepak.png";
 
 function Home() {
@@ -23,9 +24,9 @@ function Home() {
         database development.
       </p>
 
-      <a href="/about" className="btn">
+      <Link to="/about" className="btn">
         Learn More About Me
-      </a>
+      </Link>
 
       <div className="resume-buttons">
         <a
