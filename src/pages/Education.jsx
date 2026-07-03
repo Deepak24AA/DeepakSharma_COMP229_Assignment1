@@ -8,17 +8,43 @@ function Education() {
         <h3>Health Informatics Technology</h3>
         <p>2025 – Present</p>
         <p>
-          Studying web development, Java, C#, React, SQL, Oracle database,
+          Studying web development, Java, C#, React, SQL, Oracle Database,
           software testing, and health information systems.
         </p>
       </div>
 
       <div className="card">
-        <h2>Bachelor of Pharmacy</h2>
-        <h3>Previous Education</h3>
+        <h2>Rajiv Gandhi University of Health Sciences, Bangalore</h2>
+        <h3>Bachelor of Pharmacy (B.Pharm.)</h3>
+        <p>2013 – 2019</p>
         <p>
-          Built a strong foundation in pharmacy, healthcare, medication safety,
-          and patient care.
+          Completed the Bachelor of Pharmacy program with coursework in
+          pharmacology, pharmaceutical sciences, patient care, and clinical
+          pharmacy.
+        </p>
+      </div>
+
+      <div className="card">
+        <h2>Centennial College</h2>
+        <h3>
+          Pharmacy Technician Bridging Program for Internationally Educated
+          Pharmacists
+        </h3>
+        <p>2010</p>
+        <p>
+          Completed the Canadian pharmacy bridging program focusing on pharmacy
+          practice, patient safety, medication management, and professional
+          standards.
+        </p>
+      </div>
+
+      <div className="card">
+        <h2>Drugs Control Department, Government of Karnataka, Bangalore</h2>
+        <h3>Diploma in Pharmacy (D.Pharm.)</h3>
+        <p>1993</p>
+        <p>
+          Completed foundational education in pharmaceutical sciences,
+          dispensing practices, pharmacology, and patient care.
         </p>
       </div>
     </div>
