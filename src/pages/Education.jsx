@@ -14,7 +14,7 @@ function Education() {
       </div>
 
       <div className="card">
-        <h2>Rajiv Gandhi University of Health Sciences, Bangalore</h2>
+         <h2>Rajiv Gandhi University of Health Sciences (RGUHS), Bangalore, India</h2>
         <h3>Bachelor of Pharmacy (B.Pharm.)</h3>
         <p>2013 – 2019</p>
         <p>
@@ -39,7 +39,7 @@ function Education() {
       </div>
 
       <div className="card">
-        <h2>Drugs Control Department, Government of Karnataka, Bangalore</h2>
+        <h2>Government of Karnataka, Drugs Control Department, Bangalore, India</h2>
         <h3>Diploma in Pharmacy (D.Pharm.)</h3>
         <p>1993</p>
         <p>
