@@ -14,13 +14,13 @@ function Education() {
       </div>
 
       <div className="card">
-         <h2>Rajiv Gandhi University of Health Sciences (RGUHS), Bangalore, India</h2>
+        <h2>Rajiv Gandhi University of Health Sciences (RGUHS), Bangalore, India</h2>
         <h3>Bachelor of Pharmacy (B.Pharm.)</h3>
         <p>2013 – 2019</p>
         <p>
-          Completed the Bachelor of Pharmacy program with coursework in
-          pharmacology, pharmaceutical sciences, patient care, and clinical
-          pharmacy.
+          Completed the Bachelor of Pharmacy program with comprehensive study in
+          pharmacology, pharmaceutical sciences, clinical pharmacy, and patient
+          care.
         </p>
       </div>
 
@@ -32,9 +32,9 @@ function Education() {
         </h3>
         <p>2010</p>
         <p>
-          Completed the Canadian pharmacy bridging program focusing on pharmacy
-          practice, patient safety, medication management, and professional
-          standards.
+          Completed the Canadian pharmacy bridging program focusing on Canadian
+          pharmacy practice, patient safety, medication management, and
+          professional standards.
         </p>
       </div>
 
@@ -44,7 +44,7 @@ function Education() {
         <p>1993</p>
         <p>
           Completed foundational education in pharmaceutical sciences,
-          dispensing practices, pharmacology, and patient care.
+          pharmacology, dispensing practices, and patient care.
         </p>
       </div>
     </div>
